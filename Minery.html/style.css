@@ -1,0 +1,282 @@
+        @charset "UTF-8";
+        .cabeçalho {
+            align-content: center;
+            align-items: center;
+            color: #000000DE;
+            display: flex;
+            font: normal normal normal 16px/30px Open Sans;
+            height: 79px;
+            justify-content: flex-start;
+            letter-spacing: 0px;
+            margin: 0 6%;
+            text-align: start;
+        }
+        
+        .teste:hover {
+            background-color: #FE13900F;
+            color: #DF1CC5;
+            cursor: pointer;
+            transition: all .5s;
+        }
+        
+        .note {
+            margin: 56px 0px;
+        }
+        
+        .teste {
+            border-radius: 10px;
+            height: 38px;
+            text-align: center;
+            padding-top: 7px;
+            width: 109px;
+        }
+        
+        ul {
+            color: #000000DE;
+            display: flex;
+            font: normal normal normal 16px/30px Open Sans;
+            justify-content: space-around;
+            letter-spacing: 0px;
+            width: 500px;
+            width: 500px;
+        }
+        
+        .imagem1 {
+            background-image: url(banner.png);
+            background-repeat: no-repeat, repeat;
+            background-size: 109%;
+            height: 75vh;
+            margin-left: auto;
+            position: absolute;
+            right: 33px;
+            top: 136px;
+            width: 560px;
+            z-index: 1;
+        }
+        
+        .text1 {
+            font: normal normal 800 49px/49px Open Sans;
+            padding-left: 87px;
+            padding-top: 157px;
+            text-shadow: 1px 4px 3px grey;
+            text-transform: uppercase;
+            width: 55%;
+            z-index: 10;
+        }
+        
+        .tirosa {
+            background-image: linear-gradient(to left, #FE1390, #DF1CC5);
+            color: white;
+            height: 105vh;
+        }
+        
+        .bottom>p {
+            font: normal normal normal 18px/30px PT Sans;
+            font-weight: bold;
+            padding-top: 9px;
+        }
+        
+        .bottom:hover {
+            background-color: #00000094;
+            cursor: pointer;
+        }
+        
+        .bottom {
+            box-shadow: 0px 0px 2px #f5f5f5;
+            border: solid white;
+            border-radius: 17px;
+            bottom: -167px;
+            height: 48px;
+            margin: 101px;
+            margin-left: 100px;
+            left: -491px;
+            position: relative;
+            text-align: center;
+            width: 186px;
+            z-index: 10;
+        }
+        
+        .note {
+            display: flex;
+        }
+        
+        .cont-left {
+            width: 50%;
+        }
+        
+        .imagem2 {
+            position: relative;
+            right: 70px;
+        }
+        
+        .cont-right>h2 {
+            color: #000000DE;
+            font: italic normal 600 40px/48px Open Sans;
+            letter-spacing: 0px;
+            opacity: 1;
+            text-transform: uppercase;
+        }
+        
+        .cont-right>p {
+            color: #00000094;
+            margin: 22px 0px;
+        }
+        
+        .cont-right>ul {
+            color: #00000094;
+            display: block;
+            line-height: 26px;
+            list-style: none;
+        }
+        
+        .bottom2 {
+            border: 1px solid #E027C8;
+            box-shadow: 0px 0px 3px #00000094;
+            color: #DF1CC5;
+            font: normal normal normal 18px/30px PT Sans;
+            height: 40px;
+            letter-spacing: 1.8px;
+            margin: 10px 0px;
+            padding-top: 11px;
+            text-align: center;
+            width: 266px;
+        }
+        
+        .bottom2:hover {
+            background-color: #00000029;
+            cursor: pointer;
+        }
+        
+        .cards {
+            background-color: #F5F5F5;
+            padding-top: 50px;
+            text-align: center;
+        }
+        
+        .cards>h3 {
+            color: #000000DE;
+            font: italic normal 600 48px/48px Open Sans;
+            letter-spacing: 0px;
+            text-transform: uppercase;
+        }
+        
+        .pai {
+            display: flex;
+            height: 276px;
+            justify-content: space-around;
+            margin: 86px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 27px;
+            border: solid white;
+            width: 250px;
+            height: 200px;
+        }
+        
+        .card>img {
+            padding: 20px 45px;
+        }
+        
+        .cards>p {
+            color: #00000094;
+            color: #00000094;
+            font: normal normal normal 16px/24px Open Sans;
+            font: normal normal normal 16px/24px Open Sans;
+            letter-spacing: 0px;
+            letter-spacing: 0px;
+            margin: 39px 234px;
+        }
+        
+        .card:hover {
+            box-shadow: 1px 1px 20px #fe139030;
+            padding: 30px;
+            transition: all .4s;
+        }
+        
+        .rodape {
+            text-align: center;
+        }
+        
+        .fim {
+            display: flex;
+        }
+        
+        .conte-left {
+            margin-left: 15%;
+            width: 60%;
+        }
+        
+        .conte-left>h4 {
+            font: italic normal 600 48px/48px Open Sans;
+            letter-spacing: 0px;
+            color: #000000DE;
+            text-transform: uppercase;
+        }
+        
+        .conte-left>p {
+            color: #00000094;
+            color: #00000094;
+            font: normal normal normal 16px/24px Open Sans;
+            font: normal normal normal 16px/24px Open Sans;
+            letter-spacing: 0px;
+            letter-spacing: 0px;
+            margin: 28px;
+        }
+        
+        .inputs {
+            margin: 40px;
+        }
+        
+        .direitos {
+            border-top: 1px solid #DF1CC5;
+            color: #0000005E;
+            display: flex;
+            font: normal normal normal 12px/30px Open Sans;
+            justify-content: space-between;
+            letter-spacing: 0px;
+            margin: 10px 64px;
+            padding: 10px 0px;
+        }
+        
+        .direitos a {
+            color: #0000005E;
+            text-decoration: none;
+        }
+        
+        .direitos a:hover {
+            color: #E027C8;
+            font-size: 18px;
+            font-weight: bolder;
+            transition: 1s;
+        }
+        
+        .input-1 {
+            border-radius: 23px;
+            border: solid #E5E5E5;
+            height: 38px;
+            margin-left: 459px;
+            text-indent: 24px;
+            width: 400px;
+        }
+        
+        .input-2 {
+            background-color: #FE1390;
+            border-radius: 25px;
+            border: solid #E5E5E5;
+            color: white;
+            height: 49px;
+            position: relative;
+            right: 44px;
+            width: 88px;
+        }
+        
+        .input-1:hover {
+            background-color: #00000029;
+            cursor: pointer;
+        }
+        
+        .input-2:hover {
+            cursor: pointer;
+        }
